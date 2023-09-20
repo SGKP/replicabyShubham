@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Music Player</title>
+    <style>
+        /* Reset some default styles for better consistency */
+        *{
+            background-color: black;
+        }
+        .player{
+            background-color: black;
+        }
+        .player:hover{
+            color: orangered;
+        }
+
+
+        .header:hover{
+            color: black;
+            background-color: aqua;
+        }
+
+
+
+        .song{
+            background-color:black; 
+        }
+.body, h1,h2, p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color:greenyellow;
+}
+
+
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.album-art img {
+    max-width: 1500px;
+    height: 150px;
+    align-self: center;
+    margin-right: 20px;
+}
+
+.track-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.audio {
+    width: 100%;
+    
+}
+ 
+.image1 {
+    width: 200px;
+    height: 150px;
+    margin-left: 500px;
+    
+}
+
+
+.image1:hover {
+    opacity: 0.7; 
+}
+.image2{
+    margin-left: 490px;
+}
+.image2:hover{
+    
+    opacity: 0.3;
+
+}
+.song{
+    margin-left: 400px;
+}
+.speaker{
+    margin-left: 300px;
+}
+.container {
+    display:flex;
+    justify-content:right; /* Center horizontally */
+    align-items:right; /* Center vertically */
+    height: 10vh; /* Adjust the height based on your design */
+    background-color: black;
+    margin-left: 1 ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* Style for square boxes (same as previous example) */
+.BOX1{
+    background-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+
+    text-align: center;
+    line-height: 200px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.BOX2{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(160, 18, 160);
+    
+    text-align: center;
+    line-height: 200px;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: left;
+    align-items: left;
+    float:right;
+    clear:left;
+    
+
+
+}
+.square-box1:hover{
+    background-color: orange;
+
+}
+.center-box {
+    order: 2; /* Change the order to 2 to place it in the center */
+}
+
+/* Additional style for the left box */
+.left-box {
+    order: 1; /* Change the order to 1 to place it on the left */
+}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SPOTIFY</h1>
+    </header>
+    <main>
+        <div>
+            <h2 style="clear:left; "> spotify</h2>
+            <h3></h3>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="player">
+
+                
+                <div class="image1"><img src="2015.jpeg" alt="" type="images2"></div>
+                <div><img src="foreign.jpeg" style="margin: 70px;" alt="" type="image3"></div>
+                <div><img src="darshan2.jpeg" style="height: 300px; margin: 70pxpx;" alt=""></div>
+            </div>
+            <div>
+                <div class="image2"><img src="nigeria.jpeg" alt=""></div>
+                 
+            </div>
+
+            <div class="container">
+                <div class ="BOX1" style="margin: 100px;">
+                    <p>POP </p>
+                </div>
+                <div class="BOX2">
+                    <p> HIP-HOP</p>
+                </div>
+            </div>
+            
+
+            
+
+
+            <div class="song">
+                
+                <div class="track-info">
+                    <h2>song:JUMKA</h2>
+                    <p>Arjit Singh</p>
+                </div>
+                <audio controls  class="speaker">
+                    <source src="Jhumka Gira Re Bareli Ke Bazaar Mein_64(PagalWorld.com.se).mp3" style="" type="audio/mpeg">
+                    
+                
+                 
+                
+            </div>
+            
+
+
+            
+
+
+
+
+
+
+
+
+
+        
+
+    </main>
+    <footer>
+        <p>&copy; 2023 SPOTIFY</p>
+    </footer>
+</body>
+</html>
